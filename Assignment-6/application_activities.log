@@ -1,0 +1,12 @@
+2026-11-09 10:00:01 [INFO] [AuthService] User 'admin' logged in successfully.
+2026-11-09 10:00:15 [DEBUG] [CacheManager] Cache hit ratio at 94.2%.
+2026-11-09 10:01:23 [WARNING] [Database] Connection pool utilization exceeded 80%.
+2026-11-09 10:02:05 [INFO] [OrderService] Order #10492 created by customer C-281.
+2026-11-09 10:03:45 [ERROR] [PaymentGateway] Payment processing failed for Order #10492: Gateway Timeout (504).
+2026-11-09 10:04:10 [INFO] [NotificationService] SMS alert dispatched to +91-9876543210.
+2026-11-09 10:05:00 [WARNING] [DiskMonitor] Free disk space on /var/log below 15%.
+2026-11-09 10:06:12 [DEBUG] [SessionManager] Session session_92f expired and cleaned.
+2026-11-09 10:07:30 [ERROR] [Database] Deadlock detected during concurrent transaction on table 'Inventory'.
+2026-11-09 10:08:18 [INFO] [BackupService] Hourly snapshot created successfully.
+2026-11-09 10:09:44 [WARNING] [ApiGateway] High latency detected on /api/v1/checkout (1450ms).
+2026-11-09 10:10:02 [ERROR] [SecurityFilter] Unauthorized access attempt detected from IP 192.168.1.105.

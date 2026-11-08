@@ -1,0 +1,17 @@
+================================================================================
+                       FILTERED LOG REPORT (ERRORS & WARNINGS)                 
+================================================================================
+Source File       : Assignment-6/application_activities.log
+Total Log Entries : 12
+ERROR Count       : 3
+WARNING Count     : 3
+Total Filtered    : 6
+================================================================================
+
+--- Filtered Log Entries ---
+[LINE 3] 2026-11-09 10:01:23 [WARNING] [Database] Connection pool utilization exceeded 80%.
+[LINE 5] 2026-11-09 10:03:45 [ERROR] [PaymentGateway] Payment processing failed for Order #10492: Gateway Timeout (504).
+[LINE 7] 2026-11-09 10:05:00 [WARNING] [DiskMonitor] Free disk space on /var/log below 15%.
+[LINE 9] 2026-11-09 10:07:30 [ERROR] [Database] Deadlock detected during concurrent transaction on table 'Inventory'.
+[LINE 11] 2026-11-09 10:09:44 [WARNING] [ApiGateway] High latency detected on /api/v1/checkout (1450ms).
+[LINE 12] 2026-11-09 10:10:02 [ERROR] [SecurityFilter] Unauthorized access attempt detected from IP 192.168.1.105.
